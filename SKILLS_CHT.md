@@ -21,6 +21,7 @@
 | $domain-model-cht | 檢查計畫是否符合現有 domain model，釐清術語、決策與文件。 |
 | $edit-article-cht | 編輯文章草稿，改善結構、清晰度、語氣和文字精煉度。 |
 | $git-guardrails-claude-code-cht | 替 Claude Code 設 git 安全 hook，阻擋危險指令如 push、reset hard、clean。 |
+| $git-guardrails-codex-cht | 替 Codex 設 git 安全 hook，在危險指令如 push、reset hard、clean、branch -D 執行前阻擋。 |
 | $github-triage-cht | 用 label 狀態機整理 GitHub issues，適合 issue 分流、bug 或 feature request 管理。 |
 | $grill-me-cht | 像嚴格訪談一樣追問你的計畫或設計，逼出模糊點與決策分支。 |
 | $improve-codebase-architecture-cht | 找出 codebase 架構改善機會，讓模組更深、更可測、更容易被 AI 理解。 |

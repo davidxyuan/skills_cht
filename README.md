@@ -22,7 +22,7 @@
 使用 Codex 內建 installer 一次安裝全部 skills：
 
 ~~~powershell
-python "C:\Users\david.yuan\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py" --repo davidxyuan/skills_cht --path caveman-cht design-an-interface-cht domain-model-cht edit-article-cht git-guardrails-claude-code-cht github-triage-cht grill-me-cht improve-codebase-architecture-cht migrate-to-shoehorn-cht obsidian-vault-cht qa-cht request-refactor-plan-cht scaffold-exercises-cht setup-pre-commit-cht tdd-cht to-issues-cht to-prd-cht triage-issue-cht ubiquitous-language-cht write-a-skill-cht zoom-out-cht
+python "C:\Users\david.yuan\.codex\skills\.system\skill-installer\scripts\install-skill-from-github.py" --repo davidxyuan/skills_cht --path caveman-cht design-an-interface-cht domain-model-cht edit-article-cht git-guardrails-claude-code-cht git-guardrails-codex-cht github-triage-cht grill-me-cht improve-codebase-architecture-cht migrate-to-shoehorn-cht obsidian-vault-cht qa-cht request-refactor-plan-cht scaffold-exercises-cht setup-pre-commit-cht tdd-cht to-issues-cht to-prd-cht triage-issue-cht ubiquitous-language-cht write-a-skill-cht zoom-out-cht
 ~~~
 
 安裝完成後請重啟 Codex。
@@ -51,6 +51,7 @@ python "C:\Users\david.yuan\.codex\skills\.system\skill-installer\scripts\instal
 
 - **setup-pre-commit-cht** — 設定 Husky pre-commit hooks、lint-staged、Prettier、型別檢查與測試。
 - **git-guardrails-claude-code-cht** — 設定 Claude Code hooks，在危險 git 指令執行前阻擋。
+- **git-guardrails-codex-cht** — 設定 Codex hooks，在危險 git 指令執行前阻擋。
 
 ## Writing & Knowledge
 
